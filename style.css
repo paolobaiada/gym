@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'SGT Jhon O', sans-serif;
+                                            
+}
+body{
+    background-color: #000;
+    color: #fff;
+    position: relative;
+   
+}
+.container{
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    margin-top: 265px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    margin: auto;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    
+}
+header li{
+    list-style: none;
+    margin: 0 30px;
+}
+ header .bx{
+    font-size: 50px;
+    display: none;
+}
+.logo img{
+    width: 250px;
+   
+}
+.navbar a:hover{
+    font-size: 30px;
+    transition: 0.3s;
+}
+.navbar a{
+    transition: 0.3s;
+}
+.navbar{
+    display: flex;
+}
+
+.desktop-image img{
+    width: 100%;
+}
+
+@media (max-width:1170px) {
+    .navbar li{
+        margin: 10px;
+    }
+    .navbar a:hover{
+        font-size: 30px;
+        transition: 0.3s;
+    }
+    .navbar a{
+        transition: 0.3s;
+    }
+    .navbar{
+        position: absolute;
+        height: 40vh;
+        width: 200px;
+        top: 200px;
+        right: 0px;
+        align-items: center;
+        flex-direction: column;
+        background-color:rgb(0, 0, 0);
+         transform: translateX(+500px);
+         transition: 0.3s;
+         cursor: pointer;
+    }
+    .navbar.active{
+        transform: translateX(0px);
+        transition: 0.3s;
+    }
+    header .bx{
+        display: block;
+        cursor: pointer;
+    }
+ 
+}
+@media (min-width:1170px) {
+    .storia{
+        display: flex;
+        gap: 20px;
+    }
+ .container-image{
+    display: flex;
+ }
+}
+    main h1{
+    text-align: center;
+    margin: 90px 20px;
+    }
+  
+.right{
+    width: 100%;
+    margin-top: 50px;
+}
+.right img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    font-family:'Cabin', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 40px;
+   
+}
+.storia span{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.spazi h1{
+    display: flex;
+    font-size: 70px;
+}
+.immagini{
+    margin: 10px;
+}
+.immagini-item img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px;
+}
+.bxl-instagram{
+    font-size: 25px;
+}
+.bxl-facebook{
+    font-size: 25px;
+    
+}
+.bx-envelope{
+    font-size: 25px;
+
+}
+
+hr{
+    width: 90%;
+    margin: 20px auto;
+}
+.text{
+    margin: 50px;
+}
+iframe{
+    margin: 20px;
+    width: 90%;
+}
